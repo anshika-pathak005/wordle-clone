@@ -35,7 +35,12 @@ I referred to a YouTube tutorial for guidance on Wordle’s logic and independen
 1. Clone or download this repository.  
 2. Open `index.html` in any modern browser.  
 3. Type your guesses using your keyboard and press Enter to submit.  
-4. Try to guess the hidden word within 6 attempts!  
+4. Try to guess the hidden word within 6 attempts!
+
+## Screen-Shots
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/578b7be7-17b5-462d-b8ef-67df0177ca08" />
+
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/d70ab800-117e-4de3-b7e2-648a64b8082e" />
 
 ## What I Learned 🧠
 
