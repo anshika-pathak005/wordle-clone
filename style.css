@@ -1,69 +1,56 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+body{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-hr {
-    width: 500px;
-    height: 2px;
-    background-color: black;
+hr{
+    width: 600px;
 }
-
-
-#board {
-    width: 90vw;         
-    max-width: 450px;
-    height: auto;   
+#title{
+    font-size: 36px;
+    font-weight: bold;
+    /* letter-spacing: 1px; */
+}
+#board{
+    width: 350px;
+    height: 420px;
+    /* background-color: blueviolet; */
     margin: 0 auto;
+    margin-top: 5px;
     display: flex;
     flex-wrap: wrap;
 }
 
+/* for each box in the board */
+.tile{
+    /* for box */
+    border: 2px solid lightgray;
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
 
-.tile {
-    width: calc(33.33% - 4px);
-    aspect-ratio: 1 / 1;  
-    font-size: 8vw; 
+    /* for text in the box */
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* for answer if it would correct or not like that*/
 
-.winner {
-    background-color: lightgray;
-    color: red;
+.correct{
+    background-color: #6AAA64;
+    color: white;
+    border-color: white;
 }
-
-
-.horizontal-line {
-    border-bottom: 3px solid black;
+.present{
+    background-color: #C98458;
+    color: white;
+    border-color: white;
 }
-
-.vertical-line {
-    border-right: 3px solid black;
-}
-
-#restart{
-    margin-top: 30px;
-    /* padding: 10px 20px; */
-    border-radius: 4px;
-    width: 10%;
-    /* border: none; */
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    margin-top: 20px;
-    padding: 10px 5%;
-    width: 40%;
-}
-
-@media (max-width: 400px) {
-    hr {
-        width: 80vw;
-    }
-    #restart {
-        font-size: 6vw;
-        width: 60%;
-    }
+.absent{
+    background-color: #787C7E;
+    color: white;
+    border-color: white;
 }
