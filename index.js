@@ -1,3 +1,13 @@
+// Check if Windows OS
+function isWindows() {
+  return navigator.userAgent.indexOf("Windows") !== -1;
+}
+
+if (isWindows()) {
+  console.log("Windows detected, running site...");
+} else {
+  document.body.innerHTML = "<h2>Sorry, this site works only on Windows.</h2>";
+}
 
 var board;
 var playerO = "O";
@@ -133,4 +143,5 @@ restartBtn.addEventListener("click",()=>{
 
     // Rebuild the game board
     setGame();
+
 })
