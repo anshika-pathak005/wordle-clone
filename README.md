@@ -1,6 +1,7 @@
 # Wordle 🎯
 
 A browser-based clone of the popular word-guessing game Wordle, built using HTML, CSS, and JavaScript. This was created just for fun — I loved understanding the game’s logic while building it and enjoy playing it myself.
+### 🔗 [Live Demo](https://wordle-clone-7nfb.onrender.com/)
 
 ## Overview
 
