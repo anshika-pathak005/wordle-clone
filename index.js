@@ -27,7 +27,7 @@ guessList = guessList.concat(wordList);
 // var word = "SQUID";
 //generating a random word from the wordlist
 var word = wordList[Math.floor(Math.random() * wordList.length)].toUpperCase();
-console.log(word);
+// console.log(word);
 
 window.onload = function(){
     intialize(); 
